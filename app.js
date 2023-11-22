@@ -125,5 +125,15 @@
 // console.log(newStr3);
 // console.log(newStr4);
 
-let str = "Mr Brown has a brown house and a brown car";
-console.log(str.replaceAll("Brown", "red"));
+// let str = "Mr Brown has a brown house and a brown car";
+// console.log(str.replaceAll("Brown", "red"));
+
+let str = "Welcome to: Full Stack";
+console.log(str.split());
+console.log(str.split(" "));
+console.log(str.split(":"));
+console.log(str.split("Full"));
+console.log(str.split("full"));
+let arr = str.split(" ");
+console.log(arr);
+console.log(str);

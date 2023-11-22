@@ -128,12 +128,20 @@
 // let str = "Mr Brown has a brown house and a brown car";
 // console.log(str.replaceAll("Brown", "red"));
 
-let str = "Welcome to: Full Stack";
-console.log(str.split());
-console.log(str.split(" "));
-console.log(str.split(":"));
-console.log(str.split("Full"));
-console.log(str.split("full"));
-let arr = str.split(" ");
-console.log(arr);
-console.log(str);
+// let str = "Welcome to: Full Stack";
+// console.log(str.split());
+// console.log(str.split(" "));
+// console.log(str.split(":"));
+// console.log(str.split("Full"));
+// console.log(str.split("full"));
+// let arr = str.split(" ");
+// console.log(arr);
+// console.log(str);
+
+// let str = "Welcome to Full Stack";
+let str = "ĞŞİüöÇççççüüğğşşiiiööçç";
+console.log(str.toLowerCase());
+console.log(str.toLocaleLowerCase());
+
+console.log(str.toUpperCase());
+console.log(str.toLocaleUpperCase("TR"));

@@ -98,8 +98,19 @@
 // let str = "You do not know what you do not know until you know";
 // console.log(findCount(str, "know"));
 
-let str = "Hello john, welcome to clarusway.";
-console.log(str.lastIndexOf("o"));
-console.log(str.lastIndexOf("o", 6));
-console.log(str.lastIndexOf("O", 6));
-console.log(str.indexOf("o"));
+// let str = "Hello john, welcome to clarusway.";
+// console.log(str.lastIndexOf("o"));
+// console.log(str.lastIndexOf("o", 6));
+// console.log(str.lastIndexOf("O", 6));
+// console.log(str.indexOf("o"));
+
+let str = "You do not KNOW what you do not know until you know";
+console.log(str.search("know"));
+console.log(str.search(/know/));
+console.log(str.search(/know/i));
+console.log(str.search(/klow/i));
+
+let str1 = "hello World";
+const arama = /[A-Z]/;
+const arama2 = /[a-z]/;
+console.log(str1.search(arama));

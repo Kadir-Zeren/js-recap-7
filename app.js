@@ -86,14 +86,20 @@
 //   console.log("Valid email");
 // }
 
-function findCount(source, search) {
-  let count = 0;
-  let position = source.indexOf(search);
-  while (position !== -1) {
-    count++;
-    position = source.indexOf(search, ++position);
-  }
-  return count;
-}
-let str = "You do not know what you do not know until you know";
-console.log(findCount(str, "know"));
+// function findCount(source, search) {
+//   let count = 0;
+//   let position = source.indexOf(search);
+//   while (position !== -1) {
+//     count++;
+//     position = source.indexOf(search, ++position);
+//   }
+//   return count;
+// }
+// let str = "You do not know what you do not know until you know";
+// console.log(findCount(str, "know"));
+
+let str = "Hello john, welcome to clarusway.";
+console.log(str.lastIndexOf("o"));
+console.log(str.lastIndexOf("o", 6));
+console.log(str.lastIndexOf("O", 6));
+console.log(str.indexOf("o"));

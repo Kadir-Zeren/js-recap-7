@@ -146,8 +146,17 @@
 // console.log(str.toUpperCase());
 // console.log(str.toLocaleUpperCase("TR"));
 
-let str = "     Welcome to Full Stack         ";
-console.log(str);
-console.log(str.trim());
-console.log(str.trimStart());
-console.log(str.trimEnd());
+// let str = "     Welcome to Full Stack         ";
+// console.log(str);
+// console.log(str.trim());
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+
+let str = "clarusway@Clarusway.com is our e-mail address";
+
+console.log(str.startsWith("clarusway"));
+console.log(str.startsWith("Clarusway"));
+console.log(str.startsWith("Clarusway", 10));
+
+let email = "clarusway@Clarusway.com";
+console.log(email.endsWith("com"));

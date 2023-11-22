@@ -139,9 +139,15 @@
 // console.log(str);
 
 // let str = "Welcome to Full Stack";
-let str = "ĞŞİüöÇççççüüğğşşiiiööçç";
-console.log(str.toLowerCase());
-console.log(str.toLocaleLowerCase());
+// let str = "ĞŞİüöÇççççüüğğşşiiiööçç";
+// console.log(str.toLowerCase());
+// console.log(str.toLocaleLowerCase());
 
-console.log(str.toUpperCase());
-console.log(str.toLocaleUpperCase("TR"));
+// console.log(str.toUpperCase());
+// console.log(str.toLocaleUpperCase("TR"));
+
+let str = "     Welcome to Full Stack         ";
+console.log(str);
+console.log(str.trim());
+console.log(str.trimStart());
+console.log(str.trimEnd());

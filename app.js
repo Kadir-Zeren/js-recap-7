@@ -69,11 +69,19 @@
 // console.log(str1.includes("l", 1));
 // console.log(str1.includes("l", 2));
 
-let str1 = "Clarusway";
+// let str1 = "Clarusway";
 
-console.log(str1.indexOf("a"));
-console.log(str1.indexOf("a", 3));
-console.log(str1.indexOf("l", 3));
+// console.log(str1.indexOf("a"));
+// console.log(str1.indexOf("a", 3));
+// console.log(str1.indexOf("l", 3));
 
-let email = prompt("enter your email");
-console.log(email.includes("@"));
+// let email = prompt("enter your email");
+// console.log(email.includes("@"));
+
+let email = prompt("Enter your email");
+
+if (email.indexOf("@") === -1) {
+  console.log("Invalid email");
+} else {
+  console.log("Valid email");
+}

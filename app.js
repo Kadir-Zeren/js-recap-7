@@ -78,10 +78,22 @@
 // let email = prompt("enter your email");
 // console.log(email.includes("@"));
 
-let email = prompt("Enter your email");
+// let email = prompt("Enter your email");
 
-if (email.indexOf("@") === -1) {
-  console.log("Invalid email");
-} else {
-  console.log("Valid email");
+// if (email.indexOf("@") === -1) {
+//   console.log("Invalid email");
+// } else {
+//   console.log("Valid email");
+// }
+
+function findCount(source, search) {
+  let count = 0;
+  let position = source.indexOf(search);
+  while (position !== -1) {
+    count++;
+    position = source.indexOf(search, ++position);
+  }
+  return count;
 }
+let str = "You do not know what you do not know until you know";
+console.log(findCount(str, "know"));

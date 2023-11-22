@@ -115,12 +115,15 @@
 // const arama2 = /[a-z]/;
 // console.log(str1.search(arama));
 
+// let str = "Mr Brown has a brown house and a brown car";
+// let newStr = str.replace("brown", "red");
+// let newStr2 = str.replace(/brown/i, "red");
+// let newStr3 = str.replace(/brown/gi, "red");
+// let newStr4 = str.replace(/brown/g, "red");
+// console.log(newStr);
+// console.log(newStr2);
+// console.log(newStr3);
+// console.log(newStr4);
+
 let str = "Mr Brown has a brown house and a brown car";
-let newStr = str.replace("brown", "red");
-let newStr2 = str.replace(/brown/i, "red");
-let newStr3 = str.replace(/brown/gi, "red");
-let newStr4 = str.replace(/brown/g, "red");
-console.log(newStr);
-console.log(newStr2);
-console.log(newStr3);
-console.log(newStr4);
+console.log(str.replaceAll("Brown", "red"));

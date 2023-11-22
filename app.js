@@ -10,14 +10,23 @@
 
 // console.log(str3[0]);
 
-const str = "Hello World";
-console.log(str.length);
-console.log(str[6]);
+// const str = "Hello World";
+// console.log(str.length);
+// console.log(str[6]);
 
-for (let i = 0; i < str.length; i++) {
-  console.log(str[i]);
-}
+// for (let i = 0; i < str.length; i++) {
+//   console.log(str[i]);
+// }
 
-for (let i = str.length; i > 0; i--) {
-  console.log(str[i - 1]);
-}
+// for (let i = str.length; i > 0; i--) {
+//   console.log(str[i - 1]);
+// }
+
+let str1 = "I'm a string";
+let str2 = "I'm a\0string\"";
+console.log(str2);
+
+alert("1-Ders \n2-Kayıt\n3-pre-class");
+alert(`1-Ders
+2-Kayıt
+3-pre-class`);
